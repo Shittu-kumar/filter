@@ -56,7 +56,7 @@ CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/BHUMIHARBOTSS')
 OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/Contact2xBot')
 UPDATE_CHANNEL_LNK = environ.get('UPDATE_CHANNEL_LNK', 'https://t.me/BHUMIHARBOTSS')
 
-AUTH_CHANNEL = environ.get("AUTH_CHANNEL", "") # add multiple channels here, separated by single space
+AUTH_CHANNEL = environ.get("AUTH_CHANNEL", "-1002500606405") # add multiple channels here, separated by single space
 AUTH_REQ_CHANNEL = environ.get('AUTH_REQ_CHANNEL', '-1002500606405') # add multiple channels here, separated by single space
 
 IS_VERIFY = is_enabled('IS_VERIFY', True)
