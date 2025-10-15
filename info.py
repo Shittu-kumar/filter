@@ -15,8 +15,8 @@ def is_enabled(value, default):
 
 
 SESSION = environ.get('SESSION', 'media_search')
-API_ID = int(environ.get('API_ID', '20114039'))
-API_HASH = environ.get('API_HASH', '87297b8f3cc8fc9bbce591ad30da5896')
+API_ID = int(environ.get('API_ID', '21402188'))
+API_HASH = environ.get('API_HASH', '583d785aeed059f9180f8d36ade81f23')
 BOT_TOKEN = environ.get('BOT_TOKEN', "7106331605:AAEB5Rdw6VfSe6Qdx1IFVsyZGaMh0kG_g7s")
 
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -31,10 +31,10 @@ FSUB_IMG = (environ.get('FSUB_IMG', 'https://i.ibb.co/cShkPjcZ/x.jpg')).split()
 
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '8420375549').split()] 
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002546266253').split()]
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002676199651'))  
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1003026868731'))  
 BIN_CHANNEL = int(environ.get('BIN_CHANNEL', '-1002588525583'))  
 MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-100'))  
-PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-1002647652455')) 
+PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-1002730337652')) 
 auth_grp = environ.get('AUTH_GROUP')
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 reqst_channel = environ.get('REQST_CHANNEL_ID', '-1002511678727') 
@@ -52,16 +52,16 @@ DATABASE_URI2 = environ.get('DATABASE_URI2', "")
 DB_CHANGE_LIMIT = int(environ.get('DB_CHANGE_LIMIT', "432")) 
 
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/MovieKaKeeda')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/BHUMIHARBOTSS')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/BHUMIHAR_BOTS_UPDATE_CHANNEL')
 OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/Contact_2owner_bot')
-UPDATE_CHANNEL_LNK = environ.get('UPDATE_CHANNEL_LNK', 'https://t.me/BHUMIHARBOTSS')
+UPDATE_CHANNEL_LNK = environ.get('UPDATE_CHANNEL_LNK', 'https://t.me/BHUMIHAR_BOTS_UPDATE_CHANNEL')
 
-AUTH_CHANNEL = environ.get("AUTH_CHANNEL", "-1002500606405") # add multiple channels here, separated by single space
-AUTH_REQ_CHANNEL = environ.get('AUTH_REQ_CHANNEL', '-1002500606405') # add multiple channels here, separated by single space
+AUTH_CHANNEL = environ.get("AUTH_CHANNEL", "-1002919307501") # add multiple channels here, separated by single space
+AUTH_REQ_CHANNEL = environ.get('AUTH_REQ_CHANNEL', '-1002919307501') # add multiple channels here, separated by single space
 
 IS_VERIFY = is_enabled('IS_VERIFY', True)
-LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002510687141'))
-LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002510687141'))
+LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002730337652'))
+LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002730337652'))
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://telegra.ph/file/9ecc5d6e4df5b83424896.jpg")
 
 TUTORIAL = environ.get("TUTORIAL", "https://t.me/")
